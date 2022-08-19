@@ -1,0 +1,185 @@
+.list {
+    list-style-type: none;
+    color: black;
+    font-size: 30px;
+}
+
+.heading {
+    color: black;
+    font-size: 50px;
+}
+
+.text {
+    color: black;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+.link {
+    color:white;
+    background-color: #458FF6;
+    font-size: 20px;
+    text-transform: none;
+}
+
+.heading_2 {
+    color: black;
+    font-size:40px;
+}
+
+.text_2 {
+    color: #7D7987;
+    font-size: 20px;
+}
+
+.list_2 {
+    list-style-type: none;
+}
+
+.pic {
+    width: 100px;
+    height: 100px;
+}
+
+.title {
+    color:black;
+    font-size: 24px;
+}
+
+.lead {
+    color: #7D7987;
+    font-size: 16px;
+}
+
+.pic_2 {
+    width: 100px;
+    height: 100px;
+}
+
+.title_2 {
+    color:black;
+    font-size: 24px; 
+}
+
+.lead_2 {
+    color: #7D7987;
+    font-size: 16px;
+}
+
+.pic_3 {
+    width: 100px;
+    height: 100px;
+}
+
+.title_3 {
+    color:black;
+    font-size: 24px; 
+}
+
+.lead_3 {
+    color: #7D7987;
+    font-size: 16px;
+}
+
+.pic_4 {
+    width: 100px;
+    height: 100px;
+}
+
+.title_4 {
+    color:black;
+    font-size: 24px; 
+}
+
+.lead_4 {
+    color: #7D7987;
+    font-size: 16px;
+}
+
+.pic_5 {
+    width: 100px;
+    height: 100px;
+}
+
+.title_5 {
+    color:black;
+    font-size: 24px; 
+}
+
+.lead_5 {
+    color: #7D7987;
+    font-size: 16px;
+}
+
+.pic_6 {
+    width: 100px;
+    height: 100px;
+}
+
+.title_6 {
+    color:black;
+    font-size: 24px; 
+}
+
+.lead_6 {
+    color: #7D7987;
+    font-size: 16px;
+}
+
+.link_2 {
+    color:white;
+    background-color: #458FF6;
+    font-size: 20px;
+}   
+
+.heading_3 {
+    color:black;
+    font-size: 40px;
+}
+
+.text_3 {
+    color: #7D7987;
+    font-size: 18px;
+}
+
+.link_3 {
+    color:white;
+    background-color: #458FF6;
+    font-size: 20px;
+}
+
+.heading_4 {
+    color:black;
+    font-size: 40px;
+}
+
+.text_4 {
+    color: #7D7987;
+    font-size: 18px;
+}
+
+.link_4 {
+    color:white;
+    background-color: #458FF6;
+    font-size: 20px;
+}
+
+.heading_5 {
+   color:black;
+   font-size: 40px; 
+}
+
+.caption {
+    color: black;
+    font-size: 20px;
+}
+
+.text_5 {
+    color: black;
+    font-size: 16px;
+}
+
+.text_6 {
+    color: #7D7987;
+    font-size: 19px;
+}

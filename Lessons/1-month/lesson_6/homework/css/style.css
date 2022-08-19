@@ -1,0 +1,287 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    width: 1515px;
+
+}
+
+.logo {
+    flex: 60%;
+    width: 160px;
+    height: 41px;
+    margin: 110px 0 0 -215px;
+    padding: 0;
+}
+
+nav{
+    flex: 40%;
+}
+
+.header-list{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding: 124px 0 124px 0;
+    margin: 0;
+    margin-right: 178px;
+}
+
+.header-item{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1F1534;
+    
+}
+
+.item1{
+    font-weight: 700;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    width: 2048px;
+    height: 719px;
+    box-sizing: border-box;
+}
+
+.box{
+    display: flex;
+    width: 445px;
+    height: 338px;
+    flex-direction: column;
+    /* flex: 10%; */
+}
+
+.pic{   
+    display: flex;
+    justify-content: end;
+    /* flex: 10%; */
+    flex-direction: column;
+    margin: 0;
+}
+
+.first-img{
+    width: 693px;
+    height: 598px;
+    margin: -20px 149px 0 109px;
+}
+
+.first-title{
+    width: 400px;
+    height: 112px;  
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    margin: 66px 0 0 204px;
+}
+
+.first-desc{
+    width: 400px;
+    height: 96px;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7D7987;
+    margin: 25px 0 0 204px;
+}
+.button-1{
+    width: 200px;
+    height: 56px;
+    border: 1px solid #458FF6;
+    background: #458FF6;
+    border-radius: 55px;
+    margin: 48px 0 0 204px;
+}
+
+.button-1:hover{
+    cursor: pointer;
+    background-color: #FFFFFF;
+} 
+
+.button-text{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    color: #FFFFFF;
+    width: 200px;
+    height: 56px;
+    margin: -1px 0 0 -5px;
+    border-radius: 55px;
+}
+.button-text:hover{
+    cursor: pointer;
+    color: #458FF6;
+}
+
+.pic{
+    display: flex;
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    width: 1515px;
+    height: 1133px; 
+}   
+
+.box-2{
+    display: flex;
+    flex-direction: column;
+    margin: 38px 323px 80px 323px;
+    padding: 0;
+    width: 952px;
+    height: 177px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    box-sizing: border-box;
+}
+
+.service-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+    margin: 80px 370px 26px;
+    width: 212px;
+    height: 56px;
+}
+
+.service-line{
+    width: 56px;
+    height: 2px;
+    background: #000000;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 0 446px;
+}
+
+.service-desc{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #7D7987;
+    width: 850px;
+    height: 60px;
+    margin: 33px 50px 80px;
+}
+
+.box-3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: 352px;
+    box-sizing: border-box;
+}
+
+.service-list{
+    display: flex; 
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.service-list-2{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.service-item{
+    border: 1px solid white;
+    width: 350px;
+    height: 352px;  
+    justify-content: space-evenly;
+    margin: 0px 34px 0px 0px;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+}
+.i1{
+    margin-left: 240px;
+}
+
+.service-icon{
+    margin: 54px 0 0 37px;
+}
+.service-item-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+    color: #000000;
+    margin: 25px 0 0 39px;
+}
+.service-item-desc{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+    margin: 1px 0 0 39px;
+    width: 266px;
+    height: 80px;
+}
+
+.button-2{
+    width: 200px;
+    height: 60px;
+    border: 1px solid #458FF6;
+    border-radius: 55px;
+    background-color: #fff;
+    margin: 69px 700px 220px;
+}
+
+.button-2:hover{
+    cursor: pointer;
+    background-color: #458ff6;
+}
+
+.button-2-text{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    color: #458FF6;
+    width: 200px;
+    height: 56px;
+    margin: -1px 0 0 -5px;
+    border-radius: 55px;
+}
+
+.button-2-text:hover{
+    cursor: pointer;
+    color: #fff;
+}
+
+/* .healthcare{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.hc-img{
+    flex: 60%;
+    width: 650px;
+    height: 477px;
+}
+
+.hc-pic{
+    margin: 800px 142px 0 135px;
+
+}
+
+.box-4{
+    flex: 40%;
+    margin: 800px ;
+} */

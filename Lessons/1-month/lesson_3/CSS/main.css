@@ -1,0 +1,66 @@
+h4{
+    color:hwb(117 0% 0%)
+}
+.heading{
+    color:darkmagenta
+}
+h3{
+    color:lightseagreen
+}
+#value{
+    color:chocolate
+}
+
+ul{
+    list-style:none;
+}
+.decoration{
+    /* text-decoration:line-through; */
+    /* text-decoration:overline; */
+    /* text-decoration:underline;
+
+}
+.text-transform{
+    /* text-transform: capitalize; */
+    /* text-transform: lowercase; */
+    /* text-transform: uppercase; */
+    /* text-transform: inherit; */
+    /* text-transform: initial; */
+    /* text-transform: unset; */
+/* } */
+
+/* .hex{
+    color:#27ffdd;
+}
+
+.rgb{
+    color: rgb(234, 123, 234);
+}
+.rgba{
+    color:rgba(7, 57, 255, 0.9);
+} */ 
+
+/* h1.main-brand-5 {
+    color: red !important;
+}
+
+.main-brand-5.title-5 {
+    color: blue ;
+}
+
+.main-brand-5 {
+    color: green ;
+} */
+
+/* h1 {
+    font-weight: 200;
+    font-size: 28px;
+    color:aqua;
+    background-color: black;
+}
+
+.test {
+    line-height: 2;
+    word-spacing: 4;
+    letter-spacing: 10;
+}

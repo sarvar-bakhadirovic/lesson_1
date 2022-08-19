@@ -1,0 +1,62 @@
+/* header{
+    width: 1330px;
+    height: 70px;
+    background-color: lightcoral;
+    margin: 0 auto;
+    position: fixed;
+    left: 7%;
+}
+.desc{
+    padding: 75px;
+}
+.container{
+    position: relative;
+    margin: 0 40px;
+    top: 20px;
+    left: 40px;
+    width: 1330px;
+    height: 500px;
+    border: 1px solid;
+
+}
+.mobile_card{
+    position: absolute;
+    width: 350px;
+    height: 450px;
+    background-color: aquamarine;
+    border: 1px solid orange;
+    top: 910px;
+    left: 600px;
+} */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background: #333;
+    padding: .15em 0;
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    margin-left: 2.5em;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+header{
+    background: hotpink;
+}

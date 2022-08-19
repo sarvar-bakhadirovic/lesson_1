@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    width: 1535px;
+    height: 720px;
+    background-color: #434551;
+    margin: 0 auto;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    width: 1315px;
+    height: 650px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px #000;
+    margin: 35px auto;
+}
+.header_box{
+    flex: 65%;
+}
+.img_box{
+    flex: 35%;
+    box-sizing: border-box;
+}
+.title{
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    margin: 50px 0 0 70px;
+}
+.desc{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: #000;
+    opacity: 0.7;
+    margin: 10px 0 0 70px;
+}
+.signup_box{
+    display: flex;
+    flex-direction: column;
+    margin: 70px 0;
+}
+.google{
+    display: flex;
+    width: 700px;
+    height: 70px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 0 0 0 70px;
+}
+.google:hover{
+    cursor: pointer;
+    border: 1px solid #F34A38;
+    box-shadow: 1px 1px 10px #F34A38;
+}
+.google_img{
+    width: 35px;
+    height: 35px;
+    margin: 20px 0 0 20px;
+    opacity: 1;
+}
+.google_title{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 25px 0 0 200px;
+}
+
+.facebook{
+    display: flex;
+    width: 700px;
+    height: 70px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 25px 0 25px 70px;
+}
+.facebook:hover{
+    cursor: pointer;
+    border: 1px solid #475993;
+    box-shadow: 1px 1px 10px #475993;
+}
+.facebook_img{
+    width: 35px;
+    height: 35px;
+    margin: 20px 0 0 20px;
+}
+.facebook_title{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 25px 0 0 200px;
+}
+
+.twitter{
+    display: flex;
+    width: 700px;
+    height: 70px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 0 0 0 70px;
+}
+.twitter:hover{
+    cursor: pointer;
+    border: 1px solid #3FA9F53;
+    box-shadow: 1px 1px 10px #3FA9F5;
+}
+.twitter_img{
+    width: 35px;
+    height: 35px;
+    margin: 20px 0 0 20px;
+}
+.twitter_title{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 25px 0 0 200px;
+}
+
+hr{
+    margin: 0;
+}
+
+.textbox{
+    display: flex;
+}
+.text{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+    margin: 45px 0 45px 70px;
+}
+.signup_text{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+    opacity: 0.5;
+    margin: 45px 0 45px 190px;
+    text-transform: uppercase;
+}
+.signup_text:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+img{
+    box-sizing: border-box;
+    width: 460.25px;
+    height: 650px;
+}

@@ -1,0 +1,8 @@
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    /* display: none; */
+    visibility: hidden;
+}

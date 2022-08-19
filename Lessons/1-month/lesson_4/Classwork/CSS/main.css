@@ -1,0 +1,23 @@
+/* .items {
+    list-style: none;
+}
+
+.list {
+    list-style-type: none;
+} */
+
+/* img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid green;
+    border-radius: 50%;
+} */
+
+.box {
+    display: inline-block;
+    border: 1px solid;
+    width: 300px;
+    height: 200px;
+    background-color: bisque;
+}
+

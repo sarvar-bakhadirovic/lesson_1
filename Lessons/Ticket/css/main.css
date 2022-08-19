@@ -1,0 +1,250 @@
+.ticket{
+    display: flex;
+    width: 1515px;
+    height: 700px;
+    background-color: #A7D6DA;
+    border: 1px solid black;
+    margin: 0;
+}
+.register{
+    /* border: 1px solid black; */
+    width: 600px;
+    height: 620px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 1px 1px 20px #1F5D63;
+    border-radius: 10px;
+}
+.title-box{
+    border: 1px solid black;
+    width: 640px;
+    height: 64px;
+    margin: 30px -20px 0 -20px;
+    background-color: #1F5D63;
+    box-shadow: 1px 1px 20px #1F5D63;
+}
+.title{
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    margin: 7px auto;
+    width: 330px;
+    height: 51px;   
+    color: #fff;
+    text-shadow: 1px 1px 5px #03eaff;
+}
+.price{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(153, 153, 153);
+    margin: 25px auto 0;
+    width: 100px;
+    height: 20px;
+}
+.name_label{
+    display: inline-block;
+}
+
+.name_title{
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1F5D63;
+    margin: 30px 30px 10px 40px;
+    width: 80px;
+    height: 16px;
+}
+.name{
+    border: 1px solid rgb(181, 181, 181);
+    background-color: #f3f3f3;
+    width: 160px;
+    height: 30px;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+.name_line{
+    width: 530px;
+    margin: 10px auto 0;
+}
+.email_title{
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1F5D63;
+    margin: 20px 30px 10px 40px;
+    width: 80px;
+    height: 16px;
+}
+.email_label{
+    display: inline-block;
+}
+.email{
+    border: 1px solid rgb(181, 181, 181);
+    background-color: #f3f3f3;
+    width: 160px;
+    height: 30px;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+.email_line{
+    width: 530px;
+    margin: 10px auto 0;
+}
+
+.location_label{
+    display: inline-block;
+}
+
+.location_title{
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1F5D63;
+    margin: 20px 30px 10px 40px;
+    width: 80px;
+    height: 16px;
+}
+.location{
+    border: 1px solid rgb(181, 181, 181);
+    background-color: #f3f3f3;
+    width: 160px;
+    height: 30px;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+.location_line{
+    width: 530px;
+    margin: 10px auto 0;
+}
+
+.size_title{
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1F5D63;
+    margin: 20px 30px 10px 40px;
+    width: 80px;
+    height: 16px;
+}
+.size{
+    border: 1px solid rgb(181, 181, 181);
+    background-color: #f3f3f3;
+    width: 300px;
+    height: 30px;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+.size_line{
+    width: 530px;
+    margin: 10px auto 0;
+}
+
+.card_label{
+    display: inline-block;
+}
+
+.card_title{
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1F5D63;
+    margin: 20px 10px 10px 40px;
+    width: 100px;
+    height: 16px;
+}
+.card{
+    border: 1px solid rgb(181, 181, 181);
+    background-color: #f3f3f3;
+    width: 160px;
+    height: 30px;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+.card_line{
+    width: 530px;
+    margin: 10px auto 0;
+}
+.card_line{
+    width: 530px;
+    margin: 10px auto 0;
+}
+
+
+.exporation_label{
+    display: inline-block;
+}
+
+.exporation_title{
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1F5D63;
+    margin: 20px 10px 10px 40px;
+    width: 100px;
+    height: 16px;
+}
+.exporation{
+    border: 1px solid rgb(181, 181, 181);
+    background-color: #f3f3f3;
+    width: 160px;
+    height: 30px;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+.exporation_line{
+    width: 530px;
+    margin: 10px auto 0;
+}
+.exporation_line{
+    width: 530px;
+    margin: 10px auto 0;
+}
+
+.registor_btn{
+    width: 200px;
+    height: 40px;
+    border: 1px solid red;
+    background-color: red;
+    letter-spacing: 2px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 15px 10px 0 360px;
+}
+.registor_btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: red;
+    box-shadow: 1px 1px 5px red;
+}
+
+.footer_text{
+    display: flex;
+}
+
+.problem{
+    display: flex;
+    margin: 20px 0 0 220px;
+    font-weight: 600;
+    font-size: 14px;
+    color: black;
+    opacity: 0.6;
+}
+.email_us{
+    display: flex;
+    height: 20px;
+    margin: 20px 0 0 5px;
+    font-weight: 600;
+    font-size: 14px;
+    color: black;
+}

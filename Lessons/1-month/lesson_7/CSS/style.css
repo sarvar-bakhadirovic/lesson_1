@@ -1,0 +1,42 @@
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+}
+
+h1{
+    font-size: 30px;
+    color: aqua;
+}
+
+/* h1:hover{
+    cursor: pointer;
+    font-size: 48px;
+    color: blue;
+}
+
+.box:hover{
+    cursor: pointer;
+    width: 500px;
+    height: 150px;
+    background-color: red;
+} */
+
+a:active{
+    color: rgb(0, 255, 247);
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+body{
+    background-image: url("../Image/image-1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: auto;
+}
+p{
+    color: white;
+}

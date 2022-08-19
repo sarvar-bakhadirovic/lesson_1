@@ -1,0 +1,525 @@
+body{
+    width: 1440px;
+    height: 3950px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.header{
+    width: 1440px;
+    height: 729px;
+    background-image: url(../images/Bitmap.svg);
+    background-size: auto;
+    background-color: #141414;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+.menu{
+    width: 1109.83px;
+    height: 28px;
+    display: flex;
+    flex-direction: row;
+    margin: 32px 165.17px 0 165px;
+}
+.logo{
+    margin: 3px 0 0 0;
+}
+
+.menu_list{
+    display: flex;
+    width: 429px;
+    height: 25px;
+    margin: 3px 0 0 0;
+    list-style: none;
+    gap: 35px;
+    margin: 3px 0 0 197px;
+}
+.menu_item{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.menu_item:hover{
+    cursor: pointer;
+    color: #D87D4A;
+}
+.combined_shape{
+    width: 23.33px;
+    height: 20px;
+    margin: 0 0 12.7px 275px;
+}
+.combined_shape:hover{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+.menu_line{
+    width: 1110px;
+    height: 1px;
+    background: #FFFFFF;
+    opacity: 0.2;
+    margin: 36px auto 0;
+}
+
+.menu_textbox{
+    width: 398px;
+    height: 346px;
+    margin: 128px 0 0 165px;
+}
+.header_text{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin: 0 0 24px 0;
+}
+.header_title{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 58px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+}
+.header_desc{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    margin: 24px 0 40px 0;
+    width: 349px;
+    height: 75px;
+}
+.header_btn{
+    width: 160px;
+    height: 48px;
+    background: #D87D4A;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.header_btn:hover{
+    cursor: pointer;
+    background: #FBAF85;
+}
+
+.product_box{
+    display: flex;
+    width: 1110px;
+    height: 284px;
+    margin: 120px auto 0;
+}
+.product_list{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 1110px;
+    height: 284px;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    gap: 30px;
+}
+.product_item{
+    /* position: absolute; */
+    width: 350px;
+    height: 284px;
+    border-radius: 8px;
+}
+/* .i1{
+    position: absolute;
+    left: 0;
+}
+.i2{
+    position: absolute;
+    left: 380px;
+}
+.i3{
+    position: absolute;
+    left: 760px;
+} */
+
+.product_textbox{
+    /* display: flex;
+    flex-direction: column; */
+    position: absolute;
+    width: 350px;
+    height: 204px;
+    background: #F1F1F1;
+    border-radius: 8px;
+    margin: 80px 0 0 0;
+    padding: 0;
+}
+.product_img{
+    position: absolute;
+    width: 123px;
+    height: 160px;
+    left: 113px;
+    bottom: 124px;
+}
+.img3{
+    position: absolute;
+    left: 11px;
+    width: 178px;
+    height: 161px;
+    margin: 0;
+}
+.product_textbox_title{
+    position: absolute;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 1.28571px;
+    text-transform: uppercase;
+    color: #000000;
+    left: 108px;
+    bottom: 63px;
+}
+.product_textbox_text{
+    position: absolute;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    opacity: 0.5;
+    left: 146px;
+    bottom: 30px;
+}
+.product_textbox_text:hover{
+    cursor: pointer;
+    color: #D87D4A;
+    opacity: 1;
+}
+.img2{
+    margin: -65px 113px 0;
+}
+.img3{
+    margin: -65px 75px 0;
+}
+
+
+.product_speaker_box{
+    width: 1110px;
+    height: 560px;
+    margin: 168px auto 0;
+    background-image: url(../images/speaker_bg.png);
+    background-size: auto;
+    border-radius: 8px;
+}
+.product_speaker_textbox{
+    width: 349px;
+    height: 303px;
+    margin: 133px 95px 124px 666px;
+}
+.product_speaker_title{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 58px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0 88px 0 0;
+}
+.product_speaker_desc{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    margin: 24px 0 40px 0;
+}
+.product_speaker_btn{
+    width: 160px;
+    height: 48px;
+    border: 1px solid black;
+    background-color: #000000;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.product_speaker_btn:hover{
+    cursor: pointer;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.speaker_zx7_box{
+    width: 1110px;
+    height: 320px;
+    margin: 48px auto;
+    background-image: url(../images/zx7_speaker.png);
+}
+.speaker_zx7_title{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 101px 0 0 95px;
+}
+.speaker_zx7_btn{
+    width: 160px;
+    height: 48px;
+    border: 1px solid black;
+    background-color: #D7D7D7;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 32px 0 0 96.5px;
+}
+.speaker_zx7_btn:hover{
+    cursor: pointer;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.earphones_box{
+    display: flex;
+    width: 1110px;
+    height: 320px;
+    margin: 0 0 0 165px;
+}
+.earphone_img_box{
+    width: 540px;
+    height: 320px;
+    margin: 0;
+}
+.earphone_textbox{
+    width: 540px;
+    height: 320px;
+    background: #F1F1F1;
+    border-radius: 8px;
+    margin: 0 0 0 30px;
+}
+.earphone_title{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 101px 0 0 95px;
+}
+.earphone_btn{
+    width: 160px;
+    height: 48px;
+    border: 1px solid black;
+    background-color: #F1F1F1;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 32px 0 0 96.5px;
+}
+.earphone_btn:hover{
+    cursor: pointer;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.about_box{
+    display: flex;
+    width: 1110px;
+    height: 588px;
+    margin: 200px auto 0;
+}
+.about_textbox{
+    width: 445px;
+    height: 295px;
+    margin: 146px 0 147px 0;
+}
+.about_title{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.42857px;
+    text-transform: uppercase;
+    color: #000000;
+}
+strong{
+    color: #D87D4A;
+}
+.about_desc{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin-top: 32px;
+}
+.about_img{
+    width: 540px;
+    height: 588px;
+    margin-left: 125px;
+    box-shadow: 1px 1px 10px #000;
+    border-radius: 8px;
+}
+
+.footer_box{
+    width: 1440px;
+    height: 365px;
+    border: 1px solid black;
+    background-color: #101010;
+    margin-top: 200px;
+}
+.footer_line{
+    width: 101px;
+    height: 4px;
+    background: #D87D4A;
+    margin: -1px 1174px 0 165px;
+    border: 1px solid #D87D4A;;
+}
+.footer_navbar{
+    display: flex;
+    width: 1110px;
+    height: 25px;
+    margin: 71px 165px 0;
+}
+.navbar_logo{
+    margin: 0 538px 0 0;
+}
+.navbar_list{
+    display: flex;
+    list-style: none;
+    gap: 34px;
+    margin: 0;
+    padding: 0;
+}
+.navbar_item{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.navbar_item:hover{
+    cursor: pointer;
+    color: #D87D4A;
+}
+.footer_textbox{
+    display: flex;
+}
+
+.footer_desc_box{
+    display: flex;
+    flex-direction: column;
+}
+.footer_desc{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    width: 540px;
+    height: 100px;
+    margin: 36px 0 56px 165px;
+}
+.footer_copyright{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin: 0 0 48px 165px;
+}
+
+.footer_social_box{
+    display: flex;
+}
+.facebook{
+    width: 24px;
+    height: 24px;
+    margin: 105px 0 0 466px;
+}
+.facebook:hover{
+    cursor: pointer;
+}
+.twitter{
+    width: 24px;
+    height: 24px;
+    margin: 105px 16px 0;
+}
+.twitter:hover{
+    cursor: pointer;
+}
+.instagram{
+    width: 24px;
+    height: 24px;
+    margin: 105px 0 0 0;
+}
+.instagram:hover{
+    cursor: pointer;
+}

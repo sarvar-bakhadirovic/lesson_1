@@ -1,0 +1,52 @@
+/* mulish-300 - latin */
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../lesson_6/fonts/mulish-v12-latin-300.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../lesson_6/fonts/mulish-v12-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../lesson_6/fonts/mulish-v12-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../lesson_6/fonts/mulish-v12-latin-300.woff') format('woff'), /* Modern Browsers */
+         url('../lesson_6/fonts/mulish-v12-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../lesson_6/fonts/mulish-v12-latin-300.svg#Mulish') format('svg'); /* Legacy iOS */
+  }
+  /* mulish-regular - latin */
+  @font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../lesson_6/fonts/mulish-v12-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../lesson_6/fonts/mulish-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../lesson_6/fonts/mulish-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../lesson_6/fonts/mulish-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../lesson_6/fonts/mulish-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../lesson_6/fonts/mulish-v12-latin-regular.svg#Mulish') format('svg'); /* Legacy iOS */
+  }
+  /* mulish-600 - latin */
+  @font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../lesson_6/fonts/mulish-v12-latin-600.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../lesson_6/fonts/mulish-v12-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../lesson_6/fonts/mulish-v12-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../lesson_6/fonts/mulish-v12-latin-600.woff') format('woff'), /* Modern Browsers */
+         url('../lesson_6/fonts/mulish-v12-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../lesson_6/fonts/mulish-v12-latin-600.svg#Mulish') format('svg'); /* Legacy iOS */
+  }
+  /* mulish-700 - latin */
+  @font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../lesson_6/fonts/mulish-v12-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../lesson_6/fonts/mulish-v12-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../lesson_6/fonts/mulish-v12-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../lesson_6/fonts/mulish-v12-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../lesson_6/fonts/mulish-v12-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../lesson_6/fonts/mulish-v12-latin-700.svg#Mulish') format('svg'); /* Legacy iOS */
+  }
