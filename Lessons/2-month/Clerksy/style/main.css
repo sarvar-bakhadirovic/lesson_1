@@ -1,0 +1,443 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__content {
+  display: flex;
+  width: 1400px;
+  height: 98px;
+  background: #163A24;
+  margin: 0 auto;
+}
+.header__content .header__content-box {
+  display: flex;
+  width: 1180px;
+  height: 58px;
+  margin: 20px auto;
+}
+.header__content .header__content-box .header__logo {
+  width: 153px;
+  height: 58px;
+  margin: 0;
+}
+.header__content .header__content-box .header__logo .header__logo img {
+  width: 153px;
+  height: 58px;
+  margin: 0;
+}
+.header__content .header__content-box .header__navbar {
+  display: flex;
+  width: 590px;
+  height: 27px;
+  margin: 15.5px 10px 15.5px 437px;
+}
+.header__content .header__content-box .header__navbar .header__text {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: right;
+  text-decoration: none;
+  color: #FBFAF7;
+  margin: 5.5px 0 0.5px 239px;
+  width: 50px;
+  height: 22px;
+}
+.header__content .header__content-box .header__navbar .header__text:hover {
+  cursor: pointer;
+}
+.header__content .header__content-box .header__navbar .header__number {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: right;
+  color: #FBFAF7;
+  margin: 5.5px 24px 0.5px;
+  text-decoration: none;
+}
+.header__content .header__content-box .header__navbar .header__btn {
+  width: 141px;
+  height: 52px;
+  background: #198C36;
+  border-radius: 160px;
+  padding: 1px 25px 1px 20px;
+  margin: -12.5px 0 0 0;
+  border: 1px solid #198C36;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: right;
+  color: #FBFAF7;
+}
+.header__content .header__content-box .header__navbar .header__btn:hover {
+  cursor: pointer;
+  background-color: #163A24;
+  color: #FBFAF7;
+  font-weight: 600;
+  border: 2px solid #FBFAF7;
+  box-shadow: 1px 1px 20px #198C36;
+}
+
+.intro {
+  display: flex;
+  width: 1400px;
+  height: 544px;
+  background: #163A24;
+  margin: 0 auto;
+  padding: 0;
+}
+.intro .intro__content {
+  display: flex;
+  width: 1180px;
+  height: 384px;
+  margin: 120px 130px 39.94px;
+}
+.intro .intro__content .intro__textbox {
+  width: 491.66px;
+  height: 294px;
+  margin: 0 0 90.06px 0;
+}
+.intro .intro__content .intro__textbox .intro__title {
+  font-family: "Recoleta";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 54px;
+  color: #FBFAF7;
+}
+.intro .intro__content .intro__textbox .intro__title {
+  margin: 0;
+  width: 391px;
+  height: 196px;
+}
+.intro .intro__content .intro__textbox .intro__desc {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FBFAF7;
+}
+.intro .intro__content .intro__textbox .intro__desc {
+  width: 475px;
+  height: 81px;
+  margin: 18px 0 0 0;
+}
+.intro .intro__content .intro__image {
+  position: relative;
+  width: 738px;
+  height: 580px;
+}
+.intro .intro__content .intro__image .intro__img {
+  position: absolute;
+  top: -120px;
+  right: -50px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  width: 1400px;
+  height: 1225.81px;
+  margin: 120px auto 0;
+}
+.about .about__first {
+  width: 1180px;
+  height: 509.55px;
+  margin: 0 auto;
+  display: flex;
+}
+.about .about__first .about__img {
+  width: 492px;
+  height: 510px;
+  margin: 0 0 0 98px;
+}
+.about .about__first .about__textbox {
+  width: 393.33px;
+  height: 200px;
+  margin: auto 98px;
+}
+.about .about__first .about__textbox .about__title {
+  font-family: "Recoleta";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 54px;
+  color: #163A24;
+}
+.about .about__first .about__textbox .about__title {
+  margin: 0;
+  width: 325px;
+  height: 108px;
+}
+.about .about__first .about__textbox .about__desc {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #163A24;
+}
+.about .about__first .about__textbox .about__desc {
+  width: 374px;
+  height: 54px;
+  margin: 27px 0 0 0;
+}
+.about .about__second {
+  display: flex;
+  width: 1180px;
+  height: 422.88px;
+  margin: 0 auto;
+}
+.about .about__second .about__textbox {
+  width: 393.33px;
+  height: 200px;
+  margin: 111.44px 98.34px;
+}
+.about .about__second .about__textbox .about__title {
+  font-family: "Recoleta";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 54px;
+  color: #163A24;
+}
+.about .about__second .about__textbox .about__title {
+  width: 376px;
+  height: 108px;
+  margin: 0;
+}
+.about .about__second .about__textbox .about__desc {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #163A24;
+}
+.about .about__second .about__textbox .about__desc {
+  width: 380px;
+  height: 54px;
+  margin: 27px 0 0 0;
+}
+.about .about__second .about__img {
+  width: 492px;
+  height: 423px;
+  margin: 0;
+}
+.about .about__third {
+  display: flex;
+  flex-direction: column;
+  width: 1180px;
+  height: 293.39px;
+  margin: 0 auto;
+}
+.about .about__third .about__title {
+  font-family: "Recoleta";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 54px;
+  color: #163A24;
+}
+.about .about__third .about__title {
+  width: 510px;
+  height: 54px;
+  margin: 120px auto 60px;
+}
+.about .about__third .about__partner {
+  display: flex;
+  width: 983.33px;
+  height: 59.39px;
+  margin: 0 auto;
+}
+.about .about__third .about__partner .about__partner-img1 {
+  margin: 3.52px 86px 4.87px 43.67px;
+}
+.about .about__third .about__partner .about__partner-img2 {
+  margin: 11.52px 0 11.37px 0;
+  height: 36px;
+}
+.about .about__third .about__partner .about__partner-img3 {
+  margin: 0 87px;
+}
+.about .about__third .about__partner .about__partner-img4 {
+  height: 45px;
+  margin: 7.52px 0 6.87px 0;
+}
+.about .about__third .about__partner .about__partner-img5 {
+  height: 37px;
+  margin: 10.52px 3.66px 11.87px 86px;
+}
+
+.production {
+  width: 1400px;
+  height: 568px;
+  background: #163A24;
+  margin: 120px auto 0;
+}
+.production .production__title {
+  font-family: "Recoleta";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 54px;
+  color: #FBFAF7;
+}
+.production .production__title {
+  width: 780px;
+  height: 54px;
+  margin: 66px 297px 0 320px;
+}
+.production .production__content {
+  width: 1400px;
+  height: 328px;
+  margin: 0;
+}
+.production .production__content .production__list {
+  width: 1180px;
+  height: 254px;
+  margin: 74px auto 0;
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.production .production__content .production__list .production__item {
+  width: 295px;
+  height: 254px;
+  display: flex;
+  flex-direction: column;
+}
+.production .production__content .production__list .production__item .production__img {
+  margin: 0 auto;
+}
+.production .production__content .production__list .production__item .production__subtitle {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FBFAF7;
+}
+.production .production__content .production__list .production__item .production__subtitle {
+  width: 198px;
+  margin: 55px auto 0;
+  text-align: center;
+}
+
+.contract {
+  width: 1400px;
+  height: 775px;
+  margin: 0 auto;
+  background: #F2EFE6;
+  display: flex;
+  flex-direction: column;
+}
+.contract .contract__content {
+  display: flex;
+  flex-direction: column;
+  width: 1400px;
+  height: 535.25px;
+  margin: 119.88px 0;
+}
+.contract .contract__content .contract__textbox {
+  width: 786px;
+  height: 200px;
+  margin: 0 auto;
+}
+.contract .contract__content .contract__textbox .contract__title {
+  font-family: "Recoleta";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 54px;
+  color: #163A24;
+}
+.contract .contract__content .contract__textbox .contract__title {
+  width: 739px;
+  height: 108px;
+  margin: 0 auto;
+  text-align: center;
+}
+.contract .contract__content .contract__textbox .contract__desc {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #163A24;
+}
+.contract .contract__content .contract__textbox .contract__desc {
+  width: 760px;
+  height: 54px;
+  margin: 27px auto 0;
+  text-align: center;
+}
+.contract .contract__content .contract__img {
+  width: 1180px;
+  height: 335px;
+  margin: 0 auto;
+}
+
+.scenes__content {
+  display: flex;
+}
+
+.scenes {
+  display: flex;
+  flex-direction: row;
+  width: 1180px;
+  height: 426.88px;
+  margin: 180px auto 0;
+}
+.scenes .scenes__textbox {
+  display: flex;
+  flex-direction: column;
+  width: 393.33px;
+  height: 227px;
+  margin: 99.94px 98.33px;
+}
+.scenes .scenes__textbox .scenes__title {
+  font-family: "Recoleta";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 54px;
+  color: #163A24;
+}
+.scenes .scenes__textbox .scenes__title {
+  width: 338px;
+  height: 108px;
+  margin: 0;
+}
+.scenes .scenes__textbox .scenes__desc {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #163A24;
+}
+.scenes .scenes__textbox .scenes__desc {
+  width: 379px;
+  height: 81px;
+  margin: 27px 0 0 0;
+}
+.scenes .scenes__img {
+  width: 492px;
+  height: 423px;
+  margin: 0;
+}/*# sourceMappingURL=main.css.map */
