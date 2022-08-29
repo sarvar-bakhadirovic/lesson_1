@@ -1,0 +1,187 @@
+.collection{
+    display: flex;
+    position: relative;
+
+    &__content{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 1111px;
+        height: 524.55px;
+        margin: 130px auto 0;
+    }
+
+    &__text{
+        display: flex;
+        width: 1111px;
+        height: 196px;
+        background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #FEFCF7 100%);
+    }
+
+    &__text span{
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 150px;
+        line-height: 72px;
+        text-align: center;
+        color: #83888F;
+        width: 1072px;
+        height: 72px;
+        margin: 90px 19px 0;
+        position: absolute;
+        z-index: -1;
+    }
+
+    &__box{
+        display: flex;
+        flex-direction: column;
+        width: 1110.82px;
+        height: 398.55px;
+        margin: -60px auto 0;
+    }
+    
+
+    &__list{
+        display: flex;
+        list-style: none;
+        width: 1110.82px;
+        height: 399px;
+        margin: 10px 0 0 0;
+        gap: 30px;
+    }
+
+    &__item{
+        display: flex;
+        flex-direction: column;
+        width: 255px;
+        height: 398.55px;
+    }
+    &__img{
+        margin: 0 0 71px 0;
+        width: auto;
+        height: auto;
+    }
+    #img-1{
+        width: 255px;
+        height: 193px;
+    }
+    #img-2{  
+        width: 256px;
+        height: 193px;
+    }
+    #img-4{
+        width: 234.82px;
+        height: 177.48px;
+        margin: 25px 0 62px 0;
+    }
+    &__title{
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #333D4B;
+        width: 180px;
+    }
+    &__desc{
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #333D4B;
+        margin: 24px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .collection{
+        display: flex;
+        position: relative;
+        margin: 41px auto 0;
+        
+
+        &__content{
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            width: 700px;
+            height: 927px;
+            margin: 130px auto 0;
+        }
+        &__box{
+            display: flex;
+            flex-direction: row;
+            width: 550px;
+            height: 398.55px;
+            margin: -130px 67px 0;
+        }
+
+        &__text{
+            display: flex;
+            width: 689px;
+            height: 118px;
+            background: linear-gradient(180deg, rgba(254, 252, 247, 0.001) 0%, #ffffff 100%);
+        }
+    
+        &__text span{
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 96px;
+            line-height: 72px;
+            text-align: center;
+            color: #83888F;
+            width: 686px;
+            height: 72px;
+            margin: 27px 1px 0;
+            position: absolute;
+            z-index: -1;
+        }
+
+        
+        &__list{
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+            width: 1110px;
+            height: 134px;
+            margin: 71px 0 0 0;
+            gap: 30px;
+        }
+    
+        &__item{
+            display: flex;
+            flex-direction: row;
+            width: 573px;
+            height: 193px;
+            text-align: start;
+            align-items: flex-start;
+        }
+        &__textbox{
+            width: 255px;
+            height: 134px;
+            margin: 30px 0 0 35px;
+        }
+        &__title{
+            text-align: start;
+        }
+        #img-4{
+            margin: 0 20px 0 0;
+        }
+        
+        &__desc{
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: start;
+            color: #333D4B;
+            margin: 24px 0 0 0;
+        }
+    }
+}

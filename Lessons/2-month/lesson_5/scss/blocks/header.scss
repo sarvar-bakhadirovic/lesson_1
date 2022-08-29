@@ -1,0 +1,69 @@
+.header{
+    display: flex;
+    padding: 0;
+    margin: 0 auto;
+
+    &__content{
+        width: 1279px;
+        height: 25px;
+        display: flex;
+        margin: 44px auto 0;
+    }
+    &__logo{
+        margin: 0;
+    }
+    &__nav{
+        display: flex;
+        width: 283px;
+        height: 15px;
+        margin: 5px 0 5px 750px;
+        padding: 0;
+    }
+    &__item{
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.923077px;
+        text-transform: uppercase;
+        color: #83888F;
+
+        &:nth-child(2){
+            margin: 0 32px;
+        }
+
+        &:hover{
+            cursor: pointer;
+            color: black;
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 768px){
+    .header{
+        display: flex;
+        margin: 0 auto;
+        
+        &__content{
+            display: flex;
+            margin: 0;
+            padding: 0;
+            width: 689px;
+            height: 26px;
+            margin: 40px auto;
+        }
+        &__logo{
+            margin: 0;
+        }
+        &__nav{
+            display: flex;
+            width: 283px;
+            height: 15px;
+            margin: 6px 0 5px 150px;
+        }
+    }
+}
+
