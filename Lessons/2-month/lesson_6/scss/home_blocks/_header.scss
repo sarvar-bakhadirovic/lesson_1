@@ -1,0 +1,432 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 700px;
+    background: #014E56;
+    margin: 0 auto;
+    position: relative;
+    
+    &__bg-img{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 1300px;
+        height: 500px;
+        margin: 0;
+        background-image: url(../img/header-shape-1.svg), url(../img/header-shape-2.svg);
+        background-repeat: no-repeat;
+        background-position: left center, bottom right;
+    }
+
+    &__nav{
+        display: flex;
+        width: 1110px;
+        height: 48px;
+        margin: 73px auto 129px;
+    }
+
+    
+    &__menu{
+        display: flex;
+        width: 380px;
+        height: 40px;
+        margin: 4px 0;
+    }
+    &__logo{
+        margin: 0;
+        padding: 0;
+    }
+    &__list{
+        display: flex;
+        list-style: none;
+        margin: 6px 0 6px 80px;
+        width: 140px;
+        height: 28px;
+        gap: 40px;
+    }
+    &__item a{
+        @include livvic-600;
+        @include small-size;
+        color: #fff;
+    }
+    &__item a:hover{
+        cursor: pointer;
+        color: #F67E7E;
+    }
+
+    .contact{
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+
+        
+        &__btn a{
+            display: inline-block;
+            text-decoration: none;
+            width: 153px;
+            height: 48px;
+            background-color: transparent;
+            border: 2px solid #fff;
+            border-radius: 24px;
+            padding: 7px 30px;
+            margin: 0 0 0 609px;
+            cursor: pointer;
+
+            @include livvic-600;
+            @include small-size;
+            color: #fff;
+
+            &:hover{
+                background-color: #fff;
+                color: #002529;
+            }
+            &:active{
+                opacity: 0.25;
+            }
+        }
+
+        &__box{
+            display: flex;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 1440px;
+            height: 700px;
+            background-color: rgba(77, 77, 77, 0.7);
+            visibility: hidden;
+            opacity: 0;
+            transition: all 0.5s;
+
+            &:target{
+                visibility: visible;
+                opacity: 1;
+            }
+
+            &-content{
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 20%;
+                left: 30%;
+                width: 542px;
+                height: 520px;
+                background-color: #014E56;
+                border-radius: 12px;
+            }
+        }
+
+        // 1-iput
+        &__input{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 500px;
+            height: 42px;
+            border: none;
+            border: 2px solid #e1e5ee;
+            border-radius: 5px;
+            font-family: inherit;
+            font-size: inherit;
+            color: white;
+            outline: none;
+            padding: 1.25rem;
+            background: none;
+            margin: 20px 10px;
+
+            &:hover {
+            border-color: #adffff;
+            }
+
+            &:focus {
+            border-color: #79C8C7;
+            }
+        }
+
+        &__label{
+            position: absolute;
+            left: 25px;
+            top: 5px;
+            color: white;
+            padding: 5px;
+            cursor: text;
+            transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+            background-color: #014E56;
+        }
+
+        // 2-input
+        &__input-2{
+            position: absolute;
+            width: 500px;
+            height: 42px;
+            border: none;
+            border: 2px solid #e1e5ee;
+            border-radius: 5px;
+            font-family: inherit;
+            font-size: inherit;
+            color: white;
+            outline: none;
+            padding: 1.25rem;
+            background: none;
+            margin: 100px 10px;
+
+            &:hover {
+            border-color: #adffff;
+            }
+
+            &:focus {
+            border-color: #79C8C7;
+            }
+        }
+
+        &__label-2{
+            position: absolute;
+            left: 25px;
+            top: 85px;
+            color: white;
+            padding: 5px;
+            cursor: text;
+            transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+            background-color: #014E56;
+        }
+
+
+        // 3-input
+        &__input-3{
+            position: absolute;
+            width: 500px;
+            height: 42px;
+            border: none;
+            border: 2px solid #e1e5ee;
+            border-radius: 5px;
+            font-family: inherit;
+            font-size: inherit;
+            color: white;
+            outline: none;
+            padding: 1.25rem;
+            background: none;
+            margin: 180px 10px;
+
+            &:hover {
+            border-color: #adffff;
+            }
+
+            &:focus {
+            border-color: #79C8C7;
+            }
+        }
+
+        &__label-3{
+            position: absolute;
+            left: 25px;
+            top: 165px;
+            color: white;
+            padding: 5px;
+            cursor: text;
+            transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+            background-color: #014E56;
+        }
+
+        // 4-input
+        &__input-4{
+            position: absolute;
+            width: 500px;
+            height: 42px;
+            border: none;
+            border: 2px solid #e1e5ee;
+            border-radius: 5px;
+            font-family: inherit;
+            font-size: inherit;
+            color: white;
+            outline: none;
+            padding: 1.25rem;
+            background: none;
+            margin: 260px 10px;
+
+            &:hover {
+            border-color: #adffff;
+            }
+
+            &:focus {
+            border-color: #79C8C7;
+            }
+        }
+
+        &__label-4{
+            position: absolute;
+            left: 25px;
+            top: 245px;
+            color: white;
+            padding: 5px;
+            cursor: text;
+            transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+            background-color: #014E56;
+        }
+
+
+        // 5-input
+        &__input-5{
+            position: absolute;
+            width: 500px;
+            height: 84px;
+            border: none;
+            border: 2px solid #e1e5ee;
+            border-radius: 5px;
+            font-family: inherit;
+            font-size: inherit;
+            color: white;
+            outline: none;
+            padding: 1.25rem;
+            background: none;
+            margin: 340px 10px;
+            resize: none;
+
+            &:hover {
+            border-color: #adffff;
+            }
+
+            &:focus {
+            border-color: #79C8C7;
+            }
+        }
+
+        &__label-5{
+            position: absolute;
+            left: 25px;
+            top: 325px;
+            color: white;
+            padding: 5px;
+            cursor: text;
+            transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+            background-color: #014E56;
+        }
+
+        &__button{
+            width: 123px;
+            height: 48px;
+            background: #FFFFFF;
+            border: 2px solid #FFFFFF;
+            border-radius: 24px;
+            margin: 450px 0 0 10px;
+            padding: 10px 20px 15px 30px;
+
+            @include livvic-600;
+            @include small-size;
+            color: #002529;
+
+            &:hover{
+                border: 2px solid #79C8C7;
+                background-color: #79C8C7;
+                cursor: pointer;
+            }
+            &:active{
+                background-color: #406367;
+                border: 2px solid #406367;
+            }
+        }
+
+    }
+
+    &__content{
+        display: flex;
+        width: 1110px;
+        height: 200px;
+        margin: 0 auto;
+    }
+    &__title{
+        @include livvic-700;
+        @include big-size;
+        color: #fff;
+        width: 620px;
+        height: 200px;
+        margin: 0;
+    }
+    &__title b{
+        color: #F67E7E;
+    }
+
+    &__textbox{
+        display: flex;
+        flex-direction: column;
+        width: 445px;
+        height: 195px;
+        margin: 0 0 0 30px;
+    }
+    &__textbox hr{
+        border: 1px solid #79C8C7;
+        width: 50px;
+        height: 4px;
+        background: #79C8C7;
+    }
+    &__desc{
+        @include livvic-600;
+        @include small-size;
+        color: #fff;
+        width: 445px;
+        height: 112px;
+        margin: 79px 0 0 0;
+    }
+}
+
+
+
+@media screen and (max-width: 768px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+        width: 768px;
+        height: 700px;
+
+        &__bg-img{
+            background-image: url(../img/header-shape-2.svg);
+            background-repeat: no-repeat;
+            background-position: bottom center;
+            position: absolute;
+            z-index: -1;
+            width: 768px;
+            height: 700px;
+        }
+        &__nav{
+            width: 689px;
+            height: 48px;
+            margin: 64px auto 112px;
+        }
+        &__menu{
+            display: flex;
+        }
+        &__logo{
+            width: 127.96px;
+            height: 32px;
+            margin: 4px 0;
+        }
+        .contact{
+            display: flex;
+            width: auto;
+            height: auto;
+
+            &__btn{
+                
+            }
+        }
+        &__content{
+            display: flex;
+            flex-direction: column;
+            width: 683px;
+            height: 220px;
+            margin: 0 auto;
+        }
+        &__title{
+            @include livvic-700;
+            font-size: 64px;
+            line-height: 56px;
+            width: 350px;
+            height: 112px;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+}

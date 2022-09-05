@@ -1,0 +1,27 @@
+@mixin livvic-600{
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+}
+@mixin livvic-700{
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 700;
+}
+
+@mixin big-size{
+    font-size: 100px;
+    line-height: 100px;
+}
+@mixin medium-size{
+    font-size: 48px;
+    line-height: 48px;
+}
+@mixin small-size{
+    font-size: 18px;
+    line-height: 28px;
+}
+@mixin tiny-size {
+    font-size: 15px;
+    line-height: 25px;
+}
